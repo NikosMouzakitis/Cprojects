@@ -23,13 +23,12 @@ int numerocifras(int n)
 
 int main()
 {
-	int Num, ccfras=0;
+	int Num ;
 
 	printf("Esta funcion calcula la cantidad de cifras de un numero\n");
 	printf("\n");
 	printf("Digite un numero el cual desea conocer su cantidad de cifras: \n");
 	scanf("%d", &Num);
-	ccfras=numerocifras(Num);
 	printf("La cantidad de cifras es: %d\n", numerocifras(Num) );
 	return 0;
 }
